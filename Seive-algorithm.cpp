@@ -24,5 +24,5 @@ int32_t main()
 
         }
     }
-     for(auto i:a) if(i!=0)  cout<<i<<" ";
+     for(auto i:a) if(i!=0 && i!=1)  cout<<i<<" ";
 }
